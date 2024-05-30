@@ -7,6 +7,5 @@ class User {
     std::string _login;
     std::string _pass;
 public:
-    // Конструкторы, методы доступа и другие функции класса User...
     void saveToFile(const std::string& filename);
 };
